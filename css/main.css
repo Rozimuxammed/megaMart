@@ -564,7 +564,7 @@ footer {
 footer .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 120px;
     padding-top: 70px;
 }
 
@@ -591,9 +591,10 @@ footer .container .footer-logo img {
 
 footer .container .lists {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 100px;
     margin-bottom: 50px;
+    z-index: 1;
 }
 
 footer .container .lists p {
@@ -602,6 +603,7 @@ footer .container .lists p {
     padding: 15px 0;
     border-bottom: 3px solid #FFFFFF;
     margin-bottom: 30px;
+    display: inline-flex;
 }
 
 footer .container .lists ul {
@@ -617,4 +619,9 @@ footer .container .footer-info{
     text-align: center;
     border-top: 1px solid #05ABF3;
     padding: 20px 0;
+}
+footer .orqafon{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
